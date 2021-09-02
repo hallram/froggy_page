@@ -1,0 +1,117 @@
+
+/*
+#e6b984 color melon
+#e6d584 color amarillo pastel owo
+#aad887 color verde pastel
+#d9efa8 color verde pastel de la imagen
+#9cb692 color verde oscurito
+#869a5f color verde tierra que tambien me guta owo
+#e7e1c7 color que me encanta medio blanco owo
+
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #869a5f;
+}
+
+#imgcontainer{
+	position:relative;
+}
+
+#froghead{
+	margin: 0;
+	width: 100%;
+}
+
+.filtro{
+	height: 100%;
+	width:100%;
+	background:rgba(255,255,255, 0.2);
+	position:absolute;
+	top: 0;
+}
+
+header{
+    margin-left: 6%;
+    width: 60%;
+
+}
+article{
+	margin-left: 6%;
+	width: 60%;
+
+}
+
+aside{
+	background: #d9efa8;
+	margin-left: 6%;
+	width: 20%;
+	height: 100%;
+	margin-top: 1.2%;
+	border-radius: 30px;
+
+}
+
+#aside-title{
+	padding-left: 27px;
+	color: #869a5f;
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+#title{
+	color:#d9efa8;
+}
+
+#description{
+	color:#e7e1c7;
+}
+
+.cute-font{
+	font-family: sans-serif;
+}
+
+
+.lined{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.frogimg{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+
+.frogcontainer{
+	background: #d9efa8;
+	padding-top:10px;
+	padding-left:50px;
+	margin-top:2%;
+	border-radius: 30px;
+	padding-bottom: 10px;
+
+
+}
+
+.words{
+	width: 100%;
+
+}
+
+.text-container{
+	margin-left: 5%;
+	width: 60%;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 118%;
+	color:#869a5f;
+}	
+
+.descripcion{
+	font-size: 90%;
+}

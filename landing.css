@@ -1,0 +1,207 @@
+ 
+body{
+	padding: 0;
+	margin: 0;
+	background: #869a5f;
+	color:white;
+	font-family: 'Varela Round', sans-serif !important;
+}
+
+header{
+	background: rgba(255, 255, 255, 0.30);
+	margin-top: 0;
+	padding: 0.5%;
+	padding-left: 5%;
+	height: 5vh;
+	padding-top: 0.8%;
+	padding-bottom: 0.3%;
+	padding-right: 6%;
+
+}
+
+nav{
+	float: right;
+	min-width: 30%;
+	padding-top: 0.4%;
+}
+
+h2, h3{
+	margin-bottom: 1%;
+}
+
+.link-header{
+	margin-left: 12%;
+	text-decoration:none;
+    color: white;
+    float:right;
+}
+
+.link-header:visited{
+	color: white;
+}
+
+
+
+#main-title{
+	margin: 0;
+	font-size: 137%;
+	color:white;
+
+}
+
+#welcome{
+	margin-top: 5%;
+	padding-left: 12%;
+	padding-right: 12%;
+
+
+}
+
+.title {
+	margin-top: 10%;
+	font-family: 'Nunito', sans-serif !important;
+	font-size: 400%;
+
+}
+
+
+
+#girllanding{
+	float: right;
+	border-radius: 100%; 
+	transition: transform 1s;
+}
+#girllanding:hover{
+	transform: rotate(-20deg);
+}
+
+.lined{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#aboutme{
+	margin-top: 20%;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+#about{
+	width: 400px;
+	height: 380px;
+	border-radius: 50%;
+	transition: transform 1s;
+
+}
+
+#about:hover{
+	transform: rotate(20deg);
+}
+
+
+#aboutme-text{
+	vertical-align: top;
+	padding-left: 6%;
+	width: 40%;
+}
+
+h3.title{
+	font-size: 220%;
+}
+
+
+
+#merch{
+	position: relative;
+	padding-top: 0;
+	margin-top: 10%;
+	width: 65%;
+	margin-left: 17.5%;
+
+}
+
+#merch-title{
+	margin-top: 0;
+	text-align: center;
+
+}
+
+.arrow{
+	background: none;
+	border:none;
+	font-size: 500%;
+	color:white;
+	cursor: pointer;
+	transition: 0.5s;
+	position: absolute;
+	z-index: 1;
+	top: 43%;
+	width: 6%;
+	padding-bottom: 4%;
+}
+
+.arrow svg{
+	transform: scale(5);
+}
+
+.arrow:hover{
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 7%;
+
+
+}
+
+#right-button{
+	right:0;
+}
+
+.item-container{
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	overflow-x: auto;
+}
+
+.item-container::-webkit-scrollbar{
+	visibility: hidden; 
+}
+
+.item{
+	min-width: 30%;
+	height: 50vh;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #d9efa8;
+	color:#869a5f;
+	border-radius: 8%;
+	transition: all 1s;
+	
+
+}
+
+.merch-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8%;
+}
+
+
+.merch-img-container{
+	width: 85%;
+	height: 78%;
+	background: white;
+	margin-right: 7.5%;
+	margin-left: 7.5%;
+	margin-top: 4%;
+	border-radius: 8%;
+
+
+}
+
+.merch-info{
+	margin-left: 7.5%;
+	margin-top: 3%;
+}

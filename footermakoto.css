@@ -1,0 +1,55 @@
+/*
+cosas del footer:
+-sobre makoto, donaciones en patreon 
+
+*/
+
+
+footer{
+	background-color: #3f5826;
+	margin-top: 14%;
+	padding: 5%;
+	min-height:12%;
+}
+
+.cute-li{
+	list-style-type: none;
+}
+
+.footer-link{
+	text-decoration: none;
+	font-weight: 600;
+	font-family: 'Nunito', sans-serif;
+	
+}
+
+.footer-link:link{
+	color:white;
+}
+
+.footer-link:visited{
+	color: white;
+}
+
+
+.juntitosh{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #778c4e;
+  color:#d9efa8;
+
+}
+
+
+

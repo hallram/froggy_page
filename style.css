@@ -8,6 +8,8 @@
 #869a5f color verde tierra que tambien me guta owo
 #e7e1c7 color que me encanta medio blanco owo
 
+
+
 */
 
 body{
@@ -62,6 +64,8 @@ aside{
 
 
 #title{
+	font-weight: bolder;
+	font-family: 'Nunito', sans-serif;
 	color:#d9efa8;
 }
 
@@ -85,6 +89,11 @@ aside{
 	height: 200px;
 	object-fit: cover;
 	border-radius: 100%;
+}
+
+.frogimg:hover{
+	 -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 
